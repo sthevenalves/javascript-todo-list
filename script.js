@@ -28,4 +28,14 @@ const render = () => {
     database.forEach(item => createItem(item.task, item.status));
 }
 
+const insertItem = (event) => {
+    const keyNow = event.key;
+    if(keyNow === 'Enter'){
+        database.push({'task': event.target.value, 'status': ''})
+        render();
+    }
+}
+
+document.getElementById('newItem').addEventListener('keypress', insertItem);
+
 render();
