@@ -45,3 +45,20 @@ body{
     font-size: 3rem;
     color: var(--secondary-color);
 }
+
+.todo_list{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 10px;
+}
+.todo_item{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    box-shadow: 1px 1px 5px var(--secondary-color);
+}
+
