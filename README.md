@@ -24,7 +24,7 @@
 </div>
 
 <div class="video-project">
-<h2>Projeto</h2>
+<h2 id="proj">Projeto</h2>
 
 ![Alt Text](video-project/animtation-todo.gif)
 
