@@ -26,7 +26,7 @@
 <div class="video-project">
 <h2 id="proj">Projeto</h2>
 
-![Alt Text](video-project/animtation-todo.gif)
+<img src="video-project/animtation-todo.gif" width="400px">
 
 </div>
 
