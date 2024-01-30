@@ -20,7 +20,7 @@ html{
 }
 
 body{
-    background-color: #0f0f0b8b;
+    background-color: var(--primary-color);
     font: bold 2rem "Open Sans", sans-serif;
 }
 
